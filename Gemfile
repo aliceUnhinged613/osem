@@ -39,10 +39,10 @@ gem 'devise'
 gem 'devise_ichain_authenticatable'
 
 # for openID authentication
-gem 'omniauth'
-gem 'omniauth-facebook'
-gem 'omniauth-github'
-gem 'omniauth-google-oauth2'
+gem 'omniauth', '>= 2.0.0'
+gem 'omniauth-facebook', '>= 5.0.0'
+gem 'omniauth-github', '>= 2.0.0'
+gem 'omniauth-google-oauth2', '>= 0.6.1'
 gem 'omniauth-openid'
 
 # Bot-filtering
@@ -156,7 +156,7 @@ gem 'active_model_serializers'
 gem 'font-awesome-rails'
 
 # for markdown
-gem 'redcarpet'
+gem 'redcarpet', '>= 3.5.1'
 
 # as rdoc generator
 gem 'rdoc-generator-fivefish'
