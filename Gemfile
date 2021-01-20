@@ -43,7 +43,7 @@ gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'omniauth-github'
 gem 'omniauth-google-oauth2'
-gem 'omniauth-openid'
+gem 'omniauth-openid', '>= 2.0.1'
 
 # Bot-filtering
 gem 'recaptcha', require: 'recaptcha/rails'
