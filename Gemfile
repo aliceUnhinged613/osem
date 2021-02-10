@@ -27,8 +27,8 @@ gem 'pg'
 gem 'paper_trail'
 
 # for upload management
-gem 'carrierwave'
-gem 'carrierwave-bombshelter'
+gem 'carrierwave', '>= 1.3.2'
+gem 'carrierwave-bombshelter', '>= 0.2.2'
 gem 'mini_magick'
 
 # for internationalizing
