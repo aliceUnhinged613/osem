@@ -10,7 +10,7 @@ if Gem::Version.new(Bundler::VERSION) < Gem::Version.new('1.8.4')
 end
 
 # as web framework
-gem 'rails', '~> 5.2.3'
+gem 'rails', '~> 6.0.3', '>= 6.0.3.5'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
@@ -124,7 +124,7 @@ gem 'jquery-datatables-rails'
 gem 'chartkick'
 
 # for displaying maps
-gem 'leaflet-rails'
+gem 'leaflet-rails', '>= 1.5.1'
 
 # for user avatars
 gem 'gravtastic'
@@ -134,7 +134,7 @@ gem 'country_select'
 
 # as PDF generator
 gem 'prawn-qrcode'
-gem 'prawn-rails'
+gem 'prawn-rails', '>= 1.2.0'
 
 # for QR code generation
 gem 'rqrcode'
@@ -162,7 +162,7 @@ gem 'redcarpet'
 gem 'rdoc-generator-fivefish'
 
 # for visitor tracking
-gem 'piwik_analytics', '~> 1.0.1'
+gem 'piwik_analytics', '~> 1.0.2'
 
 # for recurring jobs
 gem 'delayed_job_active_record'
