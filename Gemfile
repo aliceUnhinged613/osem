@@ -232,7 +232,7 @@ group :development do
   gem 'rubocop', require: false
   gem 'rubocop-rspec'
   # to open mails
-  gem 'letter_opener'
+  gem 'letter_opener', '>= 1.7.0'
   # as deployment system
   gem 'mina'
   # as debugger on error pages
@@ -243,11 +243,11 @@ end
 
 group :test do
   # as test framework
-  gem 'capybara'
+  gem 'capybara', '>= 3.26.0'
   gem 'database_cleaner'
   gem 'geckodriver-helper'
   gem 'rspec-rails'
-  gem 'transactional_capybara'
+  gem 'transactional_capybara', '>= 0.2.0'
   gem 'webdrivers'
   # for measuring test coverage
   gem 'codecov', require: false
@@ -258,11 +258,11 @@ group :test do
   # to freeze time
   gem 'timecop'
   # for mocking external requests
-  gem 'webmock'
+  gem 'webmock', '>= 3.5.1'
   # for mocking Stripe responses in tests
   gem 'stripe-ruby-mock'
   # For validating JSON schemas
-  gem 'json-schema'
+  gem 'json-schema', '>= 2.8.1'
   # For using 'assigns' in tests
   gem 'rails-controller-testing'
   # For managing the environment
