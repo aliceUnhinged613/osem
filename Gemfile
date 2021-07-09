@@ -159,7 +159,7 @@ gem 'font-awesome-rails'
 gem 'redcarpet'
 
 # as rdoc generator
-gem 'rdoc-generator-fivefish'
+gem 'rdoc-generator-fivefish', '>= 0.4.0'
 
 # for visitor tracking
 gem 'piwik_analytics', '~> 1.0.1'
