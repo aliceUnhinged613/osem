@@ -17,7 +17,7 @@ gem 'puma', '~> 3.0'
 
 # respond_to methods have been extracted to the responders gem
 # http://edgeguides.rubyonrails.org/upgrading_ruby_on_rails.html#responders
-gem 'responders', '~> 2.0'
+gem 'responders', '~> 2.4', '>= 2.4.1'
 
 # as supported databases
 gem 'mysql2'
@@ -55,7 +55,7 @@ gem 'cancancan'
 gem 'rolify'
 
 # to show flash messages from ajax requests
-gem 'unobtrusive_flash', '>=3'
+gem 'unobtrusive_flash', '>= 3.3.1'
 
 # as state machine
 gem 'transitions', :require => %w( transitions active_record/transitions )
@@ -68,7 +68,7 @@ gem 'awesome_nested_set'
 gem 'haml-rails'
 
 # for stylesheets
-gem 'sass-rails', '>= 4.0.2'
+gem 'sass-rails', '>= 5.0.7'
 
 # as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -162,7 +162,7 @@ gem 'redcarpet'
 gem 'rdoc-generator-fivefish'
 
 # for visitor tracking
-gem 'piwik_analytics', '~> 1.0.1'
+gem 'piwik_analytics', '~> 1.0.2'
 
 # for recurring jobs
 gem 'delayed_job_active_record'
@@ -217,7 +217,7 @@ gem 'skylight'
 # Nokogiri < 1.8.1 is subject to:
 # CVE-2017-0663, CVE-2017-7375, CVE-2017-7376, CVE-2017-9047, CVE-2017-9048,
 # CVE-2017-9049, CVE-2017-9050
-gem 'nokogiri', '>= 1.8.1'
+gem 'nokogiri', '>= 1.13.4'
 
 # memcached binary connector
 gem 'dalli'
