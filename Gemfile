@@ -39,11 +39,11 @@ gem 'devise'
 gem 'devise_ichain_authenticatable'
 
 # for openID authentication
-gem 'omniauth'
+gem 'omniauth', '>= 2.0.0'
 gem 'omniauth-facebook'
-gem 'omniauth-github'
+gem 'omniauth-github', '>= 2.0.0'
 gem 'omniauth-google-oauth2'
-gem 'omniauth-openid'
+gem 'omniauth-openid', '>= 2.0.1'
 
 # Bot-filtering
 gem 'recaptcha', require: 'recaptcha/rails'
