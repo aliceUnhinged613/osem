@@ -220,7 +220,7 @@ gem 'skylight'
 gem 'nokogiri', '>= 1.8.1'
 
 # memcached binary connector
-gem 'dalli'
+gem 'dalli', '>= 3.2.3'
 
 # Use guard and spring for testing in development
 group :development do
