@@ -68,7 +68,7 @@ gem 'awesome_nested_set'
 gem 'haml-rails'
 
 # for stylesheets
-gem 'sass-rails', '>= 4.0.2'
+gem 'sass-rails', '>= 6.0.0'
 
 # as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -162,7 +162,7 @@ gem 'redcarpet'
 gem 'rdoc-generator-fivefish'
 
 # for visitor tracking
-gem 'piwik_analytics', '~> 1.0.1'
+gem 'piwik_analytics', '~> 1.0.2'
 
 # for recurring jobs
 gem 'delayed_job_active_record'
