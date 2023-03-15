@@ -10,14 +10,14 @@ if Gem::Version.new(Bundler::VERSION) < Gem::Version.new('1.8.4')
 end
 
 # as web framework
-gem 'rails', '~> 5.2.3'
+gem 'rails', '~> 6.1.7', '>= 6.1.7.3'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 
 # respond_to methods have been extracted to the responders gem
 # http://edgeguides.rubyonrails.org/upgrading_ruby_on_rails.html#responders
-gem 'responders', '~> 2.0'
+gem 'responders', '~> 3.0', '>= 3.0.0'
 
 # as supported databases
 gem 'mysql2'
@@ -32,7 +32,7 @@ gem 'carrierwave-bombshelter'
 gem 'mini_magick'
 
 # for internationalizing
-gem 'rails-i18n'
+gem 'rails-i18n', '>= 6.0.0'
 
 # as authentification framework
 gem 'devise'
@@ -55,20 +55,20 @@ gem 'cancancan'
 gem 'rolify'
 
 # to show flash messages from ajax requests
-gem 'unobtrusive_flash', '>=3'
+gem 'unobtrusive_flash', '>= 3.3.1'
 
 # as state machine
 gem 'transitions', :require => %w( transitions active_record/transitions )
 
 # for comments
 gem 'acts_as_commentable_with_threading'
-gem 'awesome_nested_set'
+gem 'awesome_nested_set', '>= 3.2.0'
 
 # as templating language
 gem 'haml-rails'
 
 # for stylesheets
-gem 'sass-rails', '>= 4.0.2'
+gem 'sass-rails', '>= 5.0.8'
 
 # as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -150,10 +150,10 @@ gem 'airbrake'
 gem 'turbolinks'
 
 # for JSON serialization of our API
-gem 'active_model_serializers'
+gem 'active_model_serializers', '>= 0.10.12'
 
 # as icon font
-gem 'font-awesome-rails'
+gem 'font-awesome-rails', '>= 4.7.0.6'
 
 # for markdown
 gem 'redcarpet'
@@ -162,10 +162,10 @@ gem 'redcarpet'
 gem 'rdoc-generator-fivefish'
 
 # for visitor tracking
-gem 'piwik_analytics', '~> 1.0.1'
+gem 'piwik_analytics', '~> 1.0.2'
 
 # for recurring jobs
-gem 'delayed_job_active_record'
+gem 'delayed_job_active_record', '>= 4.1.5'
 gem 'whenever', :require => false
 
 # to run scripts
@@ -187,7 +187,7 @@ gem 'ruby-oembed'
 gem 'cloudinary'
 
 # for setting app configuration in the environment
-gem 'dotenv-rails'
+gem 'dotenv-rails', '>= 2.7.6'
 
 # configurable toggles for functionality
 # https://github.com/mgsnova/feature
