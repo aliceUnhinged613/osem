@@ -10,14 +10,14 @@ if Gem::Version.new(Bundler::VERSION) < Gem::Version.new('1.8.4')
 end
 
 # as web framework
-gem 'rails', '~> 5.2.3'
+gem 'rails', '~> 6.1.7', '>= 6.1.7.3'
 
 # Use Puma as the app server
-gem 'puma', '~> 3.0'
+gem 'puma', '~> 4.3', '>= 4.3.12'
 
 # respond_to methods have been extracted to the responders gem
 # http://edgeguides.rubyonrails.org/upgrading_ruby_on_rails.html#responders
-gem 'responders', '~> 2.0'
+gem 'responders', '~> 3.0', '>= 3.0.0'
 
 # as supported databases
 gem 'mysql2'
@@ -27,23 +27,23 @@ gem 'pg'
 gem 'paper_trail'
 
 # for upload management
-gem 'carrierwave'
+gem 'carrierwave', '>= 1.3.2'
 gem 'carrierwave-bombshelter'
 gem 'mini_magick'
 
 # for internationalizing
-gem 'rails-i18n'
+gem 'rails-i18n', '>= 6.0.0'
 
 # as authentification framework
 gem 'devise'
 gem 'devise_ichain_authenticatable'
 
 # for openID authentication
-gem 'omniauth'
+gem 'omniauth', '>= 2.1.0'
 gem 'omniauth-facebook'
-gem 'omniauth-github'
+gem 'omniauth-github', '>= 2.0.0'
 gem 'omniauth-google-oauth2'
-gem 'omniauth-openid'
+gem 'omniauth-openid', '>= 2.0.1'
 
 # Bot-filtering
 gem 'recaptcha', require: 'recaptcha/rails'
@@ -55,20 +55,20 @@ gem 'cancancan'
 gem 'rolify'
 
 # to show flash messages from ajax requests
-gem 'unobtrusive_flash', '>=3'
+gem 'unobtrusive_flash', '>= 3.3.1'
 
 # as state machine
 gem 'transitions', :require => %w( transitions active_record/transitions )
 
 # for comments
 gem 'acts_as_commentable_with_threading'
-gem 'awesome_nested_set'
+gem 'awesome_nested_set', '>= 3.2.0'
 
 # as templating language
 gem 'haml-rails'
 
 # for stylesheets
-gem 'sass-rails', '>= 4.0.2'
+gem 'sass-rails', '>= 6.0.0'
 
 # as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -81,8 +81,8 @@ gem 'formtastic', '~> 3.1.5'
 gem 'formtastic-bootstrap'
 
 # as the JavaScript library
-gem 'jquery-rails'
-gem 'jquery-ui-rails', '~> 4.2.1'
+gem 'jquery-rails', '>= 4.4.0'
+gem 'jquery-ui-rails', '~> 6.0.0'
 
 # for languages validation
 gem 'iso-639'
@@ -121,7 +121,7 @@ gem 'ajax-datatables-rails'
 gem 'jquery-datatables-rails'
 
 # for charts
-gem 'chartkick'
+gem 'chartkick', '>= 3.4.0'
 
 # for displaying maps
 gem 'leaflet-rails'
@@ -150,22 +150,22 @@ gem 'airbrake'
 gem 'turbolinks'
 
 # for JSON serialization of our API
-gem 'active_model_serializers'
+gem 'active_model_serializers', '>= 0.10.12'
 
 # as icon font
-gem 'font-awesome-rails'
+gem 'font-awesome-rails', '>= 4.7.0.6'
 
 # for markdown
-gem 'redcarpet'
+gem 'redcarpet', '>= 3.5.1'
 
 # as rdoc generator
 gem 'rdoc-generator-fivefish'
 
 # for visitor tracking
-gem 'piwik_analytics', '~> 1.0.1'
+gem 'piwik_analytics', '~> 1.0.2'
 
 # for recurring jobs
-gem 'delayed_job_active_record'
+gem 'delayed_job_active_record', '>= 4.1.5'
 gem 'whenever', :require => false
 
 # to run scripts
@@ -187,7 +187,7 @@ gem 'ruby-oembed'
 gem 'cloudinary'
 
 # for setting app configuration in the environment
-gem 'dotenv-rails'
+gem 'dotenv-rails', '>= 2.7.6'
 
 # configurable toggles for functionality
 # https://github.com/mgsnova/feature
@@ -217,10 +217,10 @@ gem 'skylight'
 # Nokogiri < 1.8.1 is subject to:
 # CVE-2017-0663, CVE-2017-7375, CVE-2017-7376, CVE-2017-9047, CVE-2017-9048,
 # CVE-2017-9049, CVE-2017-9050
-gem 'nokogiri', '>= 1.8.1'
+gem 'nokogiri', '>= 1.13.9'
 
 # memcached binary connector
-gem 'dalli'
+gem 'dalli', '>= 3.2.3'
 
 # Use guard and spring for testing in development
 group :development do
