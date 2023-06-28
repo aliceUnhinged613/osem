@@ -10,14 +10,14 @@ if Gem::Version.new(Bundler::VERSION) < Gem::Version.new('1.8.4')
 end
 
 # as web framework
-gem 'rails', '~> 5.2.3'
+gem 'rails', '~> 6.1.7', '>= 6.1.7.4'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 
 # respond_to methods have been extracted to the responders gem
 # http://edgeguides.rubyonrails.org/upgrading_ruby_on_rails.html#responders
-gem 'responders', '~> 2.0'
+gem 'responders', '~> 3.0', '>= 3.0.0'
 
 # as supported databases
 gem 'mysql2'
@@ -32,10 +32,10 @@ gem 'carrierwave-bombshelter'
 gem 'mini_magick'
 
 # for internationalizing
-gem 'rails-i18n'
+gem 'rails-i18n', '>= 6.0.0'
 
 # as authentification framework
-gem 'devise'
+gem 'devise', '>= 4.7.2'
 gem 'devise_ichain_authenticatable'
 
 # for openID authentication
@@ -65,10 +65,10 @@ gem 'acts_as_commentable_with_threading'
 gem 'awesome_nested_set'
 
 # as templating language
-gem 'haml-rails'
+gem 'haml-rails', '>= 2.0.0'
 
 # for stylesheets
-gem 'sass-rails', '>= 4.0.2'
+gem 'sass-rails', '>= 5.0.8'
 
 # as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -77,12 +77,12 @@ gem 'uglifier', '>= 1.3.0'
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass', '~> 3.4.0'
 gem 'cocoon'
-gem 'formtastic', '~> 3.1.5'
+gem 'formtastic', '~> 4.0.0'
 gem 'formtastic-bootstrap'
 
 # as the JavaScript library
-gem 'jquery-rails'
-gem 'jquery-ui-rails', '~> 4.2.1'
+gem 'jquery-rails', '>= 4.4.0'
+gem 'jquery-ui-rails', '~> 5.0.0'
 
 # for languages validation
 gem 'iso-639'
@@ -117,14 +117,14 @@ end
 gem 'bootstrap3-datetimepicker-rails', '~> 4.17.47'
 
 # data tables
-gem 'ajax-datatables-rails'
+gem 'ajax-datatables-rails', '>= 1.0.0'
 gem 'jquery-datatables-rails'
 
 # for charts
 gem 'chartkick'
 
 # for displaying maps
-gem 'leaflet-rails'
+gem 'leaflet-rails', '>= 1.6.0'
 
 # for user avatars
 gem 'gravtastic'
@@ -134,14 +134,14 @@ gem 'country_select'
 
 # as PDF generator
 gem 'prawn-qrcode'
-gem 'prawn-rails'
+gem 'prawn-rails', '>= 1.2.1'
 
 # for QR code generation
 gem 'rqrcode'
 
 # to render XLS spreadsheets
 gem 'axlsx', git: 'https://github.com/randym/axlsx.git'
-gem 'axlsx_rails'
+gem 'axlsx_rails', '>= 0.6.0'
 
 # as error catcher
 gem 'airbrake'
@@ -150,10 +150,10 @@ gem 'airbrake'
 gem 'turbolinks'
 
 # for JSON serialization of our API
-gem 'active_model_serializers'
+gem 'active_model_serializers', '>= 0.10.12'
 
 # as icon font
-gem 'font-awesome-rails'
+gem 'font-awesome-rails', '>= 4.7.0.6'
 
 # for markdown
 gem 'redcarpet'
@@ -172,7 +172,7 @@ gem 'whenever', :require => false
 gem 'daemons'
 
 # to encapsulate money in objects
-gem 'money-rails'
+gem 'money-rails', '>= 1.13.4'
 
 # for lists
 gem 'acts_as_list'
@@ -187,7 +187,7 @@ gem 'ruby-oembed'
 gem 'cloudinary'
 
 # for setting app configuration in the environment
-gem 'dotenv-rails'
+gem 'dotenv-rails', '>= 2.7.6'
 
 # configurable toggles for functionality
 # https://github.com/mgsnova/feature
@@ -200,13 +200,13 @@ gem "countable-rails"
 # for fake data
 gem 'faker'
 # for seeds
-gem 'factory_bot_rails'
+gem 'factory_bot_rails', '>= 5.0.0'
 
 # for integrating Stripe payment gateway
 gem 'stripe'
 
 # Provides Sprockets implementation for Rails Asset Pipeline
-gem 'sprockets-rails'
+gem 'sprockets-rails', '>= 3.2.2'
 
 # for multiple speakers select on proposal/event forms
 gem 'selectize-rails'
@@ -236,7 +236,7 @@ group :development do
   # as deployment system
   gem 'mina'
   # as debugger on error pages
-  gem 'web-console'
+  gem 'web-console', '>= 4.0.0'
   # as development database
   gem 'sqlite3'
 end
@@ -246,7 +246,7 @@ group :test do
   gem 'capybara'
   gem 'database_cleaner'
   gem 'geckodriver-helper'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 3.7.0'
   gem 'transactional_capybara'
   gem 'webdrivers'
   # for measuring test coverage
@@ -264,7 +264,7 @@ group :test do
   # For validating JSON schemas
   gem 'json-schema'
   # For using 'assigns' in tests
-  gem 'rails-controller-testing'
+  gem 'rails-controller-testing', '>= 1.0.5'
   # For managing the environment
   gem 'climate_control'
   # For PDFs
