@@ -254,7 +254,7 @@ group :test do
   # for describing models
   gem 'shoulda-matchers', require: false
   # for stubing/mocking models
-  gem 'rspec-activemodel-mocks'
+  gem 'rspec-activemodel-mocks', '>= 1.2.0'
   # to freeze time
   gem 'timecop'
   # for mocking external requests
