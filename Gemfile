@@ -10,7 +10,7 @@ if Gem::Version.new(Bundler::VERSION) < Gem::Version.new('1.8.4')
 end
 
 # as web framework
-gem 'rails', '~> 5.2.3'
+gem 'rails', '~> 7.0.8', '>= 7.0.8.7'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
@@ -68,7 +68,7 @@ gem 'awesome_nested_set'
 gem 'haml-rails'
 
 # for stylesheets
-gem 'sass-rails', '>= 4.0.2'
+gem 'sass-rails', '>= 6.0.0'
 
 # as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -117,14 +117,14 @@ end
 gem 'bootstrap3-datetimepicker-rails', '~> 4.17.47'
 
 # data tables
-gem 'ajax-datatables-rails'
+gem 'ajax-datatables-rails', '>= 1.3.0'
 gem 'jquery-datatables-rails'
 
 # for charts
 gem 'chartkick'
 
 # for displaying maps
-gem 'leaflet-rails'
+gem 'leaflet-rails', '>= 1.9.4'
 
 # for user avatars
 gem 'gravtastic'
@@ -134,7 +134,7 @@ gem 'country_select'
 
 # as PDF generator
 gem 'prawn-qrcode'
-gem 'prawn-rails'
+gem 'prawn-rails', '>= 1.4.0'
 
 # for QR code generation
 gem 'rqrcode'
