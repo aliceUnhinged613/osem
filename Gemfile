@@ -10,7 +10,7 @@ if Gem::Version.new(Bundler::VERSION) < Gem::Version.new('1.8.4')
 end
 
 # as web framework
-gem 'rails', '~> 5.2.3'
+gem 'rails', '~> 7.0.0'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
@@ -65,10 +65,10 @@ gem 'acts_as_commentable_with_threading'
 gem 'awesome_nested_set'
 
 # as templating language
-gem 'haml-rails'
+gem 'haml-rails', '>= 2.1.0'
 
 # for stylesheets
-gem 'sass-rails', '>= 4.0.2'
+gem 'sass-rails', '>= 6.0.0'
 
 # as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -117,14 +117,14 @@ end
 gem 'bootstrap3-datetimepicker-rails', '~> 4.17.47'
 
 # data tables
-gem 'ajax-datatables-rails'
+gem 'ajax-datatables-rails', '>= 1.3.0'
 gem 'jquery-datatables-rails'
 
 # for charts
 gem 'chartkick'
 
 # for displaying maps
-gem 'leaflet-rails'
+gem 'leaflet-rails', '>= 1.9.4'
 
 # for user avatars
 gem 'gravtastic'
@@ -134,14 +134,14 @@ gem 'country_select'
 
 # as PDF generator
 gem 'prawn-qrcode'
-gem 'prawn-rails'
+gem 'prawn-rails', '>= 1.4.0'
 
 # for QR code generation
 gem 'rqrcode'
 
 # to render XLS spreadsheets
 gem 'axlsx', git: 'https://github.com/randym/axlsx.git'
-gem 'axlsx_rails'
+gem 'axlsx_rails', '>= 0.6.0'
 
 # as error catcher
 gem 'airbrake'
@@ -217,7 +217,7 @@ gem 'skylight'
 # Nokogiri < 1.8.1 is subject to:
 # CVE-2017-0663, CVE-2017-7375, CVE-2017-7376, CVE-2017-9047, CVE-2017-9048,
 # CVE-2017-9049, CVE-2017-9050
-gem 'nokogiri', '>= 1.8.1'
+gem 'nokogiri', '>= 1.18.3'
 
 # memcached binary connector
 gem 'dalli'
