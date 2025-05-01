@@ -246,7 +246,7 @@ group :test do
   gem 'capybara'
   gem 'database_cleaner'
   gem 'geckodriver-helper'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 8.0.0'
   gem 'transactional_capybara'
   gem 'webdrivers'
   # for measuring test coverage
