@@ -10,7 +10,7 @@ if Gem::Version.new(Bundler::VERSION) < Gem::Version.new('1.8.4')
 end
 
 # as web framework
-gem 'rails', '~> 5.2.3'
+gem 'rails', '~> 7.1.5', '>= 7.1.5.2'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
@@ -24,7 +24,7 @@ gem 'mysql2'
 gem 'pg'
 
 # for tracking data changes
-gem 'paper_trail'
+gem 'paper_trail', '>= 11.0.0'
 
 # for upload management
 gem 'carrierwave'
@@ -62,7 +62,7 @@ gem 'transitions', :require => %w( transitions active_record/transitions )
 
 # for comments
 gem 'acts_as_commentable_with_threading'
-gem 'awesome_nested_set'
+gem 'awesome_nested_set', '>= 3.6.0'
 
 # as templating language
 gem 'haml-rails'
@@ -124,7 +124,7 @@ gem 'jquery-datatables-rails'
 gem 'chartkick'
 
 # for displaying maps
-gem 'leaflet-rails'
+gem 'leaflet-rails', '>= 1.6.0'
 
 # for user avatars
 gem 'gravtastic'
@@ -134,7 +134,7 @@ gem 'country_select'
 
 # as PDF generator
 gem 'prawn-qrcode'
-gem 'prawn-rails'
+gem 'prawn-rails', '>= 1.2.1'
 
 # for QR code generation
 gem 'rqrcode'
@@ -165,7 +165,7 @@ gem 'rdoc-generator-fivefish'
 gem 'piwik_analytics', '~> 1.0.1'
 
 # for recurring jobs
-gem 'delayed_job_active_record'
+gem 'delayed_job_active_record', '>= 4.1.7'
 gem 'whenever', :require => false
 
 # to run scripts
@@ -175,7 +175,7 @@ gem 'daemons'
 gem 'money-rails'
 
 # for lists
-gem 'acts_as_list'
+gem 'acts_as_list', '>= 1.0.0'
 
 # for switch checkboxes
 gem 'bootstrap-switch-rails', '~> 3.0.0'
