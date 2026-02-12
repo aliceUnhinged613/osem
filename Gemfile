@@ -40,9 +40,9 @@ gem 'devise_ichain_authenticatable'
 
 # for openID authentication
 gem 'omniauth'
-gem 'omniauth-facebook'
-gem 'omniauth-github'
-gem 'omniauth-google-oauth2'
+gem 'omniauth-facebook', '>= 6.0.0'
+gem 'omniauth-github', '>= 1.4.0'
+gem 'omniauth-google-oauth2', '>= 0.7.0'
 gem 'omniauth-openid'
 
 # Bot-filtering
@@ -203,7 +203,7 @@ gem 'faker'
 gem 'factory_bot_rails'
 
 # for integrating Stripe payment gateway
-gem 'stripe'
+gem 'stripe', '>= 5.0.0'
 
 # Provides Sprockets implementation for Rails Asset Pipeline
 gem 'sprockets-rails'
@@ -260,7 +260,7 @@ group :test do
   # for mocking external requests
   gem 'webmock'
   # for mocking Stripe responses in tests
-  gem 'stripe-ruby-mock'
+  gem 'stripe-ruby-mock', '>= 3.0.0'
   # For validating JSON schemas
   gem 'json-schema'
   # For using 'assigns' in tests
